@@ -27,7 +27,7 @@ namespace OOP6_2
             newMeasurementTaken = new EventHandler(device_NewMeasurementTaken);
             // TODO - Hook up the event handler to the event.
             device.NewMeasurementTaken += newMeasurementTaken;
-
+            // TODO - Use a lambda expression to handle the HeartBeat event.
             device.HeartBeat += (o, args) =>
             {
                 heartBeatTimeStamp.Content = "HeartBeat Timestamp: " + args.TimeStamp;

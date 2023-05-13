@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="0,0,-115,-98">
-        <Button Content="Start Collecting" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="startCollecting" VerticalAlignment="Top" Width="222" Click="startCollecting_Click" />
+        <Button Content="Start Collecting" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="startCollecting" VerticalAlignment="Top" Width="150" Click="startCollecting_Click" />
         <TextBox Height="24" HorizontalAlignment="Left" Margin="150,128,0,0" Name="metricValueBox" VerticalAlignment="Top" Width="316" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="150,157,0,0" Name="imperialValueBox" VerticalAlignment="Top" Width="316" />
         <ListBox Height="223" HorizontalAlignment="Left" Margin="150,187,0,0" Name="rawDataValues" VerticalAlignment="Top" Width="316" />
@@ -21,8 +21,8 @@
         <Button Content="Update" Height="23" HorizontalAlignment="Left" Margin="347,41,0,0" Name="updateButton" VerticalAlignment="Top" Width="119" Click="updateButton_Click" />
         <Label Content="Units:" Height="28" HorizontalAlignment="Left" Margin="12,68,0,0" Name="unitsLabel" VerticalAlignment="Top" Width="120" />
         <Label Content="Most Recent Measure:" Height="28" HorizontalAlignment="Left" Margin="12,97,0,0" Name="mostRecentMeasureLabel" VerticalAlignment="Top" Width="132" />
-        <Button Content="Dispose Object" Height="23" HorizontalAlignment="Left" Margin="492,221,0,0" Name="dispose" VerticalAlignment="Top" Width="258" Click="dispose_Click" />
-        <Button Content="Stop Collecting" Height="23" HorizontalAlignment="Left" Margin="244,12,0,0" Name="stopCollecting" VerticalAlignment="Top" Width="222" Click="stopCollecting_Click" />
-        <Label Content="Heartbeat Timestamp: " Height="28" HorizontalAlignment="Left" Margin="10,415,0,0" Name="heartBeatTimeStamp" VerticalAlignment="Top" Width="454" />
+        <Button Content="Dispose" Height="23" HorizontalAlignment="Left" Margin="322,12,0,0" Name="dispose" VerticalAlignment="Top" Width="150" Click="dispose_Click" />
+        <Button Content="Stop Collecting" Height="23" HorizontalAlignment="Left" Margin="167,12,0,0" Name="stopCollecting" VerticalAlignment="Top" Width="150" Click="stopCollecting_Click" />
+        <Label Content="Heartbeat Timestamp: " Height="28" HorizontalAlignment="Left" Margin="471,41,0,0" Name="heartBeatTimeStamp" VerticalAlignment="Top" Width="273" />
     </Grid>
 </Window>

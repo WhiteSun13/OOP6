@@ -20,7 +20,7 @@ namespace OOP6_2
 
         // TODO - Add the HeartBeatInterval property comment, and add a protected integer member named heartBeatIntervalTime.
         protected int heartBeatIntervalTime;
-        public event HeartBeatEventHandler HeartBeat;
+        public event HeartBeatEventHandler? HeartBeat;
         public int HeartBeatInterval { get; set; }
 
         /// <summary>
