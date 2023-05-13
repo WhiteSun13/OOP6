@@ -55,7 +55,7 @@ namespace OOP6_3
             Stopwatch.Start();
             CompositionTarget.Rendering += CompositionTarget_Rendering;
 
-            // Вызыв асинхронный метода MultiplyAsync
+            // Вызыв асинхронного метода MultiplyAsync
             _calculator.MultiplyAsync(a, b, result =>
             {
                 ResultLabel.Dispatcher.Invoke(() => {

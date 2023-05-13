@@ -31,6 +31,7 @@ namespace OOP6_3
 
         double Multiply(double a, double b)
         {
+            // Имитация долгого вычисления
             Thread.Sleep(5000);
             return a * b;
         }
